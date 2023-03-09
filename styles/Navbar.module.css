@@ -3,6 +3,10 @@
     flex: 1;
     padding: 2rem 2rem;
     border-bottom: 1px solid #eaeaea;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.link:hover {
+    color: #0070f3;
 }

@@ -1,12 +1,12 @@
 import Footer from './footer'
 import Navbar from './navbar';
-import { ReactNode } from 'react';
+import { FunctionComponent, ReactNode } from 'react';
 
-type LayoutProps = {
+interface LayoutProps {
     children: ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout: FunctionComponent<LayoutProps> = ({ children }) => {
     return (
         <>
             <Navbar/>

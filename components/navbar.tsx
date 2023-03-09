@@ -1,10 +1,11 @@
 import styles from '../styles/Navbar.module.css';
 import Link from 'next/link';
+import { FunctionComponent } from 'react';
 
-const Navbar = () => {
+const Navbar: FunctionComponent<{}> = () => {
     return (
         <div className={ styles.navbar }>
-            <Link href={ '/' }>Get Me Outta Here</Link>
+            <Link href={ '/' } className={ styles.link }>Get Me Outta Here</Link>
         </div>
     )
 }
