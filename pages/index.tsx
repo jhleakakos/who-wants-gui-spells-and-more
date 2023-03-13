@@ -32,6 +32,14 @@ const Home = () => {
                         <p>If you don't like the arcanist spells, become a diviner</p>
                     </Link>
                 </div>
+
+                <div className={styles.grid}>
+                    <Link href={'/data/load'} className={styles.card}>
+                        <h2>Load Spells &rarr;</h2>
+                        <p>Can't use spells if you don't have 'em</p>
+                    </Link>
+
+                </div>
             </main>
 
         </div>
